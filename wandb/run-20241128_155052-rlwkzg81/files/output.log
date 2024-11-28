@@ -1,0 +1,14 @@
+  0%|                                                                                                                               | 0/67500 [00:00<?, ?it/s]/Users/haricharan/anaconda3/envs/lora_classifier/lib/python3.10/site-packages/torch/utils/checkpoint.py:87: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/haricharan/Documents/desktop-old/Personal/Inter_prep/projects/github/lora_based_text_classifier/main.py", line 132, in <module>
+    lora_trainer.train()
+  File "/Users/haricharan/anaconda3/envs/lora_classifier/lib/python3.10/site-packages/transformers/trainer.py", line 2123, in train
+    return inner_training_loop(
+  File "/Users/haricharan/anaconda3/envs/lora_classifier/lib/python3.10/site-packages/transformers/trainer.py", line 2481, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/Users/haricharan/anaconda3/envs/lora_classifier/lib/python3.10/site-packages/transformers/trainer.py", line 3579, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/Users/haricharan/Documents/desktop-old/Personal/Inter_prep/projects/github/lora_based_text_classifier/main.py", line 37, in compute_loss
+    weight=torch.tensor([neg_weights, pos_weights], device=model.device, dtype=logits.dtype))
+NameError: name 'neg_weights' is not defined

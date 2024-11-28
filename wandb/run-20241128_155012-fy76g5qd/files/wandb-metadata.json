@@ -1,0 +1,16 @@
+{
+  "os":  "macOS-15.0.1-arm64-arm-64bit",
+  "python":  "3.10.15",
+  "startedAt":  "2024-11-28T10:20:12.735856Z",
+  "program":  "/Users/haricharan/Documents/desktop-old/Personal/Inter_prep/projects/github/lora_based_text_classifier/main.py",
+  "codePath":  "main.py",
+  "git":  {
+    "remote":  "git@github.com:BabyCoder69/lora_based_text_classifier.git"
+  },
+  "email":  "haricharan6991@gmail.com",
+  "root":  "/Users/haricharan/Documents/desktop-old/Personal/Inter_prep/projects/github/lora_based_text_classifier",
+  "host":  "Genuinincs-MacBook-Pro-Hari.local",
+  "username":  "haricharan",
+  "executable":  "/Users/haricharan/anaconda3/envs/lora_classifier/bin/python",
+  "codePathLocal":  "main.py"
+}
