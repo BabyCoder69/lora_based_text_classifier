@@ -51,7 +51,7 @@ model_name = "gpt2"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 tokenizer.pad_token = tokenizer.eos_token
 
-dataset = dataset.map(lambda samples: tokenizer(samples["text"]), batched=True)
+dataset = dataset.map(lambda samples: tokenizer(samples["text"], padding="max_length", truncation=True), batched=True)
 
 
 data = dataset['train'].train_test_split(test_size=0.1, seed=42)
